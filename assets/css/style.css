@@ -1,0 +1,53 @@
+#formPresupuesto {
+    background-color: rgba(40, 167, 69, 0.09);
+}
+
+#formPresupuesto .border-success {
+    border-color: #156928;
+}
+
+#inputPresupuesto {
+    background-color: rgba(40, 167, 69, 0);
+}
+
+#mostrarPresupuesto,
+#mostrarGastos,
+#mostrarSaldo {
+    font-size: 1.2em;
+}
+
+#btn-reset {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #57cc99;
+    background: #57cc99;
+}
+
+#btn-reset:hover {
+    background: #fff;
+    color: #57cc99
+}
+
+#eliminar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 0 12px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.icon-link {
+    font-size: 18px;
+}
